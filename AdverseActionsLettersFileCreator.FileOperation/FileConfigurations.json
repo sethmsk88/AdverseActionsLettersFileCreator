@@ -1,0 +1,314 @@
+[
+  /* Argo adverse action file */
+  {
+    "ConfigurationName": "ArgoAdverseActionFile",
+    "FileFormat": "Fixed",
+    "FileLocationFormat": "{0}\\{1}",
+    "MappingFields": [
+      {
+        "FieldName": "LetterType",
+        "FieldPlacement": 0,
+        "FixedLength": 6,
+        "Alignment": "left",
+        "PadChar": "0",
+        "NullValue": "000000"
+      },
+      {
+        "FieldName": "BureauDate",
+        "FieldPlacement": 1,
+        "FixedLength": 30,
+        "FieldType": "date",
+        "DateFormat": "MMM dd, yyyy",
+        "Alignment": "left",
+        "PadChar": " "
+      },
+      {
+        "FieldName": "CustomerName",
+        "FieldPlacement": 2,
+        "FixedLength": 35,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CustomerAddress",
+        "FieldPlacement": 3,
+        "FixedLength": 35,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CustomerAddress2",
+        "FieldPlacement": 4,
+        "FixedLength": 35,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CustomerCityStateZip",
+        "FieldPlacement": 5,
+        "FixedLength": 40,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "ApplicantName",
+        "FieldPlacement": 6,
+        "FixedLength": 75,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "DealerName",
+        "FieldPlacement": 7,
+        "FixedLength": 32,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "DeclineReason1",
+        "FieldPlacement": 8,
+        "FixedLength": 150,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "DeclineReason2",
+        "FieldPlacement": 9,
+        "FixedLength": 150,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "DeclineReason3",
+        "FieldPlacement": 10,
+        "FixedLength": 150,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CreditReportingAgencyName",
+        "FieldPlacement": 11,
+        "FixedLength": 40,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CreditReportingAgencyAddress",
+        "FieldPlacement": 12,
+        "FixedLength": 80,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CreditReportingAgencyAddress2",
+        "FieldPlacement": 13,
+        "FixedLength": 40,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "CreditReportingAgencyPhone",
+        "FieldPlacement": 14,
+        "FixedLength": 15,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BuyerName",
+        "FieldPlacement": 15,
+        "FixedLength": 40,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "DeclineReason4",
+        "FieldPlacement": 16,
+        "FixedLength": 150,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScore",
+        "FieldPlacement": 17,
+        "FixedLength": 3,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScoreReason1",
+        "FieldPlacement": 18,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScoreReason2",
+        "FieldPlacement": 19,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScoreReason3",
+        "FieldPlacement": 20,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScoreReason4",
+        "FieldPlacement": 21,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauScoreReason5",
+        "FieldPlacement": 22,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "BureauMinimumOfRange",
+        "FieldPlacement": 23,
+        "FixedLength": 4,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": "0"
+      },
+      {
+        "FieldName": "BureauMaximumOfRange",
+        "FieldPlacement": 24,
+        "FixedLength": 4,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": "0"
+      },
+      {
+        "FieldName": "BureauPercentile",
+        "FieldPlacement": 25,
+        "FixedLength": 3,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": "0"
+      },
+      {
+        "FieldName": "LxnxName",
+        "FieldPlacement": 26,
+        "FixedLength": 40,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxAddress",
+        "FieldPlacement": 27,
+        "FixedLength": 80,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxPhone",
+        "FieldPlacement": 28,
+        "FixedLength": 15,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScore",
+        "FieldPlacement": 29,
+        "FixedLength": 3,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScoreReason1",
+        "FieldPlacement": 30,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScoreReason2",
+        "FieldPlacement": 31,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScoreReason3",
+        "FieldPlacement": 32,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScoreReason4",
+        "FieldPlacement": 33,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxScoreReason5",
+        "FieldPlacement": 34,
+        "FixedLength": 100,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxMinimumOfRange",
+        "FieldPlacement": 35,
+        "FixedLength": 4,
+        "Alignment": "left",
+        "PadChar": " ",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "LxnxMaximumOfRange",
+        "FieldPlacement": 36,
+        "FixedLength": 4,
+        "Alignment": "left",
+        "NullValue": ""
+      },
+      {
+        "FieldName": "ApplicationId",
+        "FieldPlacement": 37,
+        "FixedLength": 22,
+        "Alignment": "left",
+        "NullValue": ""
+      }
+    ]
+  }
+]
+
